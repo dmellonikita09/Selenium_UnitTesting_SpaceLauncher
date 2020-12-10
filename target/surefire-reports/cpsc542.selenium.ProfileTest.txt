@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: cpsc542.selenium.ProfileTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.688 sec <<< FAILURE!
+shouldSeeTripAfterBooking(cpsc542.selenium.ProfileTest)  Time elapsed: 10.833 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:373)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at cpsc542.selenium.ProfileTest.addTripToCart(ProfileTest.java:51)
+	at cpsc542.selenium.ProfileTest.shouldSeeTripAfterBooking(ProfileTest.java:32)
+
